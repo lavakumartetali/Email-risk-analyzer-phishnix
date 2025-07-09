@@ -154,7 +154,7 @@ const PhishingDetector = () => {
       initial={{ y: 50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ delay: 0.4, duration: 0.8 }}
-      className="w-full max-w-2xl mx-auto"
+      className="w-full max-w-7xl mx-auto"
     >
       <div className="bg-slate-800/50 backdrop-blur-md rounded-2xl border border-cyan-500/20 p-8 shadow-2xl">
         <div className="space-y-6">
