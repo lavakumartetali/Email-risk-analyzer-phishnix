@@ -11,13 +11,13 @@ const Footer: React.FC<FooterProps> = ({ onModalOpen }) => {
   const socialLinks = [
     {
       icon: FaLinkedin,
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/lava-kumar-reddy-tetali-30829b1a1/',
       color: 'hover:text-blue-500',
       label: 'LinkedIn'
     },
     {
       icon: FaGithub,
-      url: 'https://github.com',
+      url: 'https://github.com/lavakumartetali',
       color: 'hover:text-gray-400',
       label: 'GitHub'
     }
@@ -128,7 +128,7 @@ const Footer: React.FC<FooterProps> = ({ onModalOpen }) => {
           className="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center"
         >
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2024 PhishNix. All rights reserved.
+            © 2025 PhishNix. All rights reserved.
           </div>
           <div className="flex items-center space-x-2 text-gray-400 text-sm">
             <span>Made with</span>
