@@ -1,12 +1,12 @@
 
 import React, { useCallback } from 'react';
 import Particles from 'react-tsparticles';
-import { loadFull } from 'tsparticles';
+import { loadSlim } from 'tsparticles-slim';
 import type { Engine } from 'tsparticles-engine';
 
 const ParticleBackground = () => {
   const particlesInit = useCallback(async (engine: Engine) => {
-    await loadFull(engine);
+    await loadSlim(engine);
   }, []);
 
   return (
@@ -45,17 +45,14 @@ const ParticleBackground = () => {
         },
         particles: {
           color: {
-            value: ["#00ffff", "#ff00ff", "#ffff00"],
+            value: ["#22d3ee", "#a855f7", "#3b82f6"],
           },
           links: {
-            color: "#ffffff",
+            color: "#22d3ee",
             distance: 150,
             enable: true,
             opacity: 0.2,
             width: 1,
-          },
-          collisions: {
-            enable: true,
           },
           move: {
             direction: "none",
@@ -81,7 +78,7 @@ const ParticleBackground = () => {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 1, max: 3 },
           },
         },
         detectRetina: true,
