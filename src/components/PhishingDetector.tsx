@@ -181,7 +181,7 @@ const PhishingDetector = () => {
             <motion.textarea
               value={body}
               onChange={(e) => setBody(e.target.value)}
-              rows={6}
+              rows={10}
               className="w-full bg-slate-700/50 border border-slate-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all duration-300 resize-none"
               placeholder="Email Body Content"
               whileFocus={{ scale: 1.02 }}
